@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   integration-tests:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, arc, the1studio, org]
 
     steps:
       - name: Checkout

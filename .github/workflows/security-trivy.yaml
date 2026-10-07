@@ -13,7 +13,7 @@ permissions:
 jobs:
   trivy-fs:
     name: Trivy filesystem scan
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, arc, the1studio, org]
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.1
